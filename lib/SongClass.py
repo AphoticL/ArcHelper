@@ -1,4 +1,9 @@
 import json
+
+def parseToSong(string):
+    temp = string.split(",")
+    print (temp)
+
 class Song:
     '''
     Initiates a song object. 
